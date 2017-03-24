@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Andreas Kratzer KIT/IVD <andreas.kratzer@kit.edu>
+LABEL maintainer="andreas.kratzer@kit.edu"
 
 #Set Versions, nice-dcv setup File has to be downloaded from NICE manually, Nvidia Drivers has to be the same as on your docker host
 ENV NVIDIA_DRIVER 375.39
